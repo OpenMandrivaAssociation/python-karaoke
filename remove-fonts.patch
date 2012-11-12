@@ -1,0 +1,15 @@
+--- ../BUILD/pykaraoke-0.7.0/setup.py-	2010-01-16 08:56:23.052186202 +0100
++++ ../BUILD/pykaraoke-0.7.0/setup.py	2010-01-16 08:56:40.070291223 +0100
+@@ -62,11 +62,7 @@
+       'icons/microphone.png',
+       'icons/pykaraoke.xpm',
+       'icons/splash.png']),
+-    ('share/pykaraoke/fonts', [
+-    'fonts/DejaVuSans.ttf',
+-    'fonts/DejaVuSansCondensed.ttf',
+-    'fonts/DejaVuSansCondensed-Bold.ttf',
+-    ])]
++    ]
+ 
+ # These data files only make sense on Unix-like systems.
+ if env != ENV_WINDOWS:
