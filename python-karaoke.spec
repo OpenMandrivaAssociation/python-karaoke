@@ -11,7 +11,7 @@ Source: 	http://www.kibosh.org/pykaraoke/%{tarname}-%{version}.tar.bz2
 Patch0:         remove-fonts.patch
 License:	LGPL 
 Group:		Sound
-URL:		http://www.kibosh.org/
+URL:		https://www.kibosh.org/
 BuildRoot:	%{_tmppath}/%{tarname}-%{version}%{release}-buildroot
 BuildRequires:  desktop-file-utils
 BuildRequires:	python-devel
